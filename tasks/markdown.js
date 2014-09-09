@@ -41,8 +41,9 @@ module.exports = function(grunt) {
       var contents = markdown.markdown(
         grunt.file.read(src),
         options,
-        iframeTemplate,
+        
         template,
+        iframeTemplate,
         file
       );
       for(var i=0;i<contents.length;i++){
