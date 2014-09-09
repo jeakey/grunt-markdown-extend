@@ -1,0 +1,56 @@
+{
+  "name": "grunt-markdown-extend",
+  "description": "Compile markdown to html. GFM and code highlighting support!",
+  "version": "0.0.3",
+  "homepage": "https://github.com/jeakey/grunt-markdown-extend",
+  "author": "jeakey <june_fh@qq.com>",
+  "contributors": [
+    "Thomas Welton <thomaswelton@me.com>",
+    "Matt Dawson <matthewtdawson@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeakey/grunt-markdown-extend"
+  },
+  "bugs": {
+    "url": "https://github.com/jeakey/grunt-markdown-extend/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jeakey/grunt-markdown-extend/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "grunt.js",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-jshint": "~0.3.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.3.1",
+    "mocha": "~1.18.2",
+    "cheerio": "~0.12.0",
+    "grunt-mocha-test": "~0.10.2",
+    "chai": "~1.9.1",
+    "grunt-mocha-istanbul": "~1.4.1",
+    "grunt-contrib-connect": "~0.7.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "highlight.js": "~7.3.0",
+    "markit": "~0.1.0",
+    "grunt-lib-contrib": "~0.3.0",
+    "lodash": "~0.9.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
+}
